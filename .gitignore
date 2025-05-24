@@ -1,0 +1,23 @@
+# Node.js modules
+node_modules/
+
+# Django
+backend/erp_backend/db.sqlite3
+*.pyc
+__pycache__/
+
+# Env files
+.env
+
+# VSCode files
+.vscode/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
