@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-af+#lkudq($&-f+fx3sxlr&ftw&_%93@cmooede@vknogxjmq7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -88,8 +88,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'erp_db',
+        'USER': 'erp_user',
+        'PASSWORD': 'erp_password',
+        'HOST': 'mysql',
+        'PORT': 3306,
     }
 }
 

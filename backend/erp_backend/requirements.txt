@@ -9,3 +9,5 @@ PyJWT
 rest-framework-simplejwt
 sqlparse
 tzdata
+
+mysqlclient
