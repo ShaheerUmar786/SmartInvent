@@ -1,10 +1,12 @@
 # Node.js modules
 node_modules/
+/frontend/node_modules
 
 # Django
 backend/erp_backend/db.sqlite3
 *.pyc
 __pycache__/
+/backend/.venv
 
 # Env files
 .env
